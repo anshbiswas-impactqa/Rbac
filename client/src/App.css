@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+ }
+.frame {
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 12px 12px 16px;
+}
+.register img{
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+} 
+.signin img{    
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.inp {
+    height: 30px;
+    width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.42);
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.42);
+}
+.form-submit {
+    background: rgba(229,199,233,255);
+    height: 30px;
+    width: 30%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-weight: 600;
+}
+.form-submit:hover {
+    background: rgba(138,80,193,255);
+    transition: 0.5s;
+}
+.even-columns {
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.even-columns > * {
+    flex-basis: 100%;
+}
+.contact-form-items {
+    gap: 1em;
+}
+.contact-form-name {
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.42);
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.42);
+}
+.home-div {
+    text-align: center;
+}
+.not-found {
+    margin-top: 10%;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+.not-found h2{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 46px;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.not-found a{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #189cf0;
+    display: inline-block;
+    padding: 16px 38px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 400;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.not-found a:hover{
+    background-color: #fff;
+    border-color: #189cf0;
+    color: #189cf0;
+}
+
+
